@@ -76,7 +76,7 @@ trace = go.Bar(
 )
 data = [trace]
 layout = go.Layout(
-    title = "Mininmum Current value of CRC Errors % ",
+    title = "Minimum Current value of CRC Errors % ",
     xaxis=dict(
         title='Name of type of the error',
         tickfont=dict(
@@ -103,7 +103,7 @@ trace = go.Bar(
 )
 data = [trace]
 layout = go.Layout(
-    title = "Maxinmum Current value of CRC Errors % ",
+    title = "Maximum Current value of CRC Errors % ",
     xaxis=dict(
         title='Name of type of the error',
         tickfont=dict(
@@ -217,7 +217,7 @@ fig = {
       "values": temp1.values,
       "labels": temp1.index,
       "domain": {"x": [0, .48]},
-      "name": "Mininmum",
+      "name": "Minimum",
       "hoverinfo":"label+percent+name",
       "hole": .6,
       "type": "pie"
@@ -241,7 +241,7 @@ fig = {
                     "size": 20
                 },
                 "showarrow": False,
-                "text": "Mininmum",
+                "text": "Minimum",
                 "x": 0.20,
                 "y": 0.5
             },
